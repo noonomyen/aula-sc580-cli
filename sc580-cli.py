@@ -9,8 +9,8 @@ import sys
 import argparse
 
 TARGET_VID_PIDS = {
-    (0x088D, 0x062E): "usb",       # llTECH Wireless-Receiver
-    (0x089D, 0x062F): "usb_dongle" # ll TECH USB Gaming Mouse
+    (0x088D, 0x062E): "usb",       # ll TECH USB Gaming Mouse
+    (0x089D, 0x062F): "usb_dongle" # llTECH Wireless-Receiver
 }
 
 POLLING_RATE_MAP = {
